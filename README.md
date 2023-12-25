@@ -90,6 +90,19 @@ $sql .= "LIMIT {$offset},{$limit}";
 $result = mysqli_query($conn, $sql);
 
 ?>
+
+<nav aria-label="Page navigation example" >
+            <ul class = "pagination">
+                <li class="page-item"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                <?php for ($i=1; $i <= $num_page; $i++) {
+                    $link = "?page={$i}";
+                    if (!empty($q)) $link .= "&q={$q}";
+                    $class = ($page == $i ? 'active' : '');
+                    echo "<li><a class=\"{$class}\" href=\"{$link}\">{$i}</a></li>";
+                } ?>
+                <li class="page-item"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">&raquo;</span></a></li>
+            </ul>
+            </nav>
 ```
 
 ![img](screenshot/tampilan_index.png)
