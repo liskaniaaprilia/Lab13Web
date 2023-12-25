@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(wollpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+.input {
+    position: fixed;
+    top: 50%;
+    left: 610px;
+    transform: translate(-30%, -50%);
+    background: #8FBC8F;
+    padding: 50px;
+    width: 270px;
+    box-shadow: white;
+    border-radius: 15px;
+}
+
+.input h1 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    padding-top: 0;
+    margin-top: -20px;
+}
+
+.box-input {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    border-bottom: 2px solid white;
+    padding: 8px 0;
+}
+
+.box-input i {
+    font-size: 15px;
+    color: white;
+    padding: 5px 0;
+}
+
+.box-input input {
+    width: 85%;
+    padding: 5px 0;
+    background: none;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.box-input input::placeholder {
+    color: white;
+}
+
+.box-input .box-input input:hover {
+    background: rgb(10, 10, 10, s 0.5);
+}
+
+.btn-input {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid white;
+    width: 92.5%;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: all .2s;
+    border-radius: 10px;
+}
+
+.btn-input:hover {
+    background: black;
+}
+
+.bottom {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -20px;
+}
+
+.bottom p{
+    color: white;
+    font-size: 5 px;
+    text-decoration: none;
+}
+
+.bottom a{
+    color: white;
+    font-size: 5 px;
+    text-decoration: none;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
