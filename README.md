@@ -2,22 +2,22 @@
 
 Pagination (pengindeksan halaman) adalah suatu teknik tata letak atau antarmuka pengguna yang digunakan untuk membagi suatu set data atau konten yang besar menjadi bagian-bagian yang lebih kecil yang disebut halaman. Tujuan dari pagination adalah untuk meningkatkan pengalaman pengguna dengan memudahkan navigasi dan mengurangi beban tampilan sekaligus meningkatkan kecepatan pemuatan halaman.
 
-## 1. Tujuan:
+## 1. Tujuan
 Pagination digunakan ketika terdapat kumpulan data atau konten yang besar yang sulit atau tidak efisien untuk ditampilkan dalam satu tampilan halaman. Dengan membagi konten menjadi halaman-halaman terpisah, pengguna dapat dengan mudah mengakses dan menavigasi melalui berbagai bagian data.
 
 ## 2. Struktur HTML
 Pagination biasanya diimplementasikan sebagai daftar elemen-elemen HTML. Umumnya, struktur HTML-nya melibatkan elemen nav untuk menandakan navigasi dan elemen ul untuk daftar halaman.
 
-## 3. Nomor Halaman:
+## 3. Nomor Halaman
 Setiap halaman direpresentasikan oleh elemen li dalam daftar, dan nomor halaman biasanya ditautkan menggunakan elemen a.
 
-## 4. Halaman Aktif:
+## 4. Halaman Aktif
 Halaman yang sedang dilihat oleh pengguna sering ditonjol atau diberi gaya berbeda dengan memberikan kelas seperti active pada elemen tersebut.
 
-## 5. Tombol Navigasi:
+## 5. Tombol Navigasi
 Ada juga tombol navigasi "Sebelumnya" dan "Selanjutnya" untuk memudahkan perpindahan antar halaman.
 
-## 6. Aksesibilitas (ARIA):
+## 6. Aksesibilitas (ARIA)
 Menambahkan atribut ARIA, seperti aria-label, membantu meningkatkan aksesibilitas untuk pembaca layar.
 
 # MEMBUAT PAGINATION
